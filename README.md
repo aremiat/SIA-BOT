@@ -1,15 +1,15 @@
 # SIA-BOT
 
 
-After being involved in the stock market/ crypto market. I observed that Elon musk tweets had an real impact on price movement of Tesla.
+After being involved in the stock market/ crypto market. I observed that Elon Musk's tweets had a real impact on the price movement of Tesla.
 
-The goal of this bot is to analyse elon musk tweets by using the Sentiment Intensity Analyser from vader. The function used, sum the number of word that are considered positive together and print a score.
+The goal of this bot is to analyze Elon musk tweets by using the Sentiment Intensity Analyser from Vader. The function used, sum the number of word that are considered positive together and print a score.
 
 I used this score to get a positive or negative signal after the tweets.
 
-Then I will use those output to either buy or sell tesla depending on what the sentiment of the tweet is.
+Then I will use that output to either buy or sell Tesla depending on the sentiment of the tweet.
 
-The Trading logic then follow, we iterate through those tweets to scan whether we have a positive of negative signal.
+The Trading logic then follows, we iterate through those tweets to scan whether we have a positive or negative signal.
 
 for i in range(len(tesla_tweets)):
     tweet_sentiment = tesla_tweets.iloc[i]['Sentiment']
@@ -22,8 +22,8 @@ for i in range(len(tesla_tweets)):
             current_position = "Long"
             print("Achat de Tesla")
 
-The parameters can be adusjted for your needs.
+The parameters can be adjusted for your needs.
 
-The Bottom of the code show how to use it with the platform Quanconnect.
+The Bottom of the code shows how to use it with the platform QuantConnect.
 
-PS : This bot only analyse data from 2012-2017, and is only viable for backtesting.
+PS: This bot only analyses data from 2012-2017, and is only viable for backtesting.
