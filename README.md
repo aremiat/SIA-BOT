@@ -27,3 +27,4 @@ The parameters can be adjusted for your needs.
 The Bottom of the code shows how to use it with the platform QuantConnect.
 
 PS: This bot only analyses data from 2012-2017, and is only viable for backtesting.
+This Idea was originally created by https://www.youtube.com/@TradeOptionsWithMe. 
