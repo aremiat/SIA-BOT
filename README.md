@@ -3,7 +3,7 @@
 
 After being involved in the stock market/ crypto market. I observed that Elon Musk's tweets had a real impact on the price movement of Tesla.
 
-The goal of this bot is to analyze Elon musk tweets by using the Sentiment Intensity Analyser from Vader. The function used, sum the number of word that are considered positive together and print a score.
+The goal of this bot is to analyze Elon Musk's tweets by using the Sentiment Intensity Analyser from Vader. The function used, sum the number of word that are considered positive together and print a score.
 
 I used this score to get a positive or negative signal after the tweets.
 
